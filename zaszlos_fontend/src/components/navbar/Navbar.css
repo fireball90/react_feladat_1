@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top:25px;
+    float:right;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+li {
+    font-size: 22px;
+    font-weight: 900;
+    display: inline;
+}
+  
+li a {
+    color: rgb(221, 221, 221);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: #dd9c24;
+    text-decoration: none;
+}
+.nav-header{
+    display: block;
+    font-size: 30px;
+    float: left;
+    padding: 20px;
+    color: #dd9c24;
+    font-family: 'Press Start 2P', cursive;
+}
+.nav-links{
+    display: block;
+    float: right;
+}
+.nav-container{
+    height: 90px;
+    justify-content:space-between;
+    display: flex;
+    background-color: #4b4b4b;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
